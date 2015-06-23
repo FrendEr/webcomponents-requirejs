@@ -1,0 +1,22 @@
+{
+  "name": "webcomponentsjs",
+  "version": "0.1.0",
+  "authors": [
+    "frend"
+  ],
+  "description": "demo for web components use webcomponent.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "webcomponentsjs": "~0.7.5",
+    "requirejs": "~2.1.18",
+    "text": "~2.0.14",
+    "less.js": "~2.5.1"
+  }
+}

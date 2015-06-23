@@ -1,0 +1,18 @@
+{
+  "name": "webcomponentsjs",
+  "version": "1.0.0",
+  "description": "demo for webcomponentsjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "frend",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-requirejs": "^0.4.2"
+  }
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>web components js</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!-- <link rel="stylesheet/less" type="text/css" href="css/index.less"> -->
+	</head>
+	<body>
+		<header>
+			<h1 class="red-font">Demo header</h1>
+		</header>
+		<div>
+			<article>demo content</article>
+			<section id="shadowRoot"></section>
+		</div>
+		<footer>
+			<h3>demo end</h3>
+		</footer>
+		<script>
+			var requirejs = {
+				baseUrl: '../dist',
+				paths: {
+					'text': '../bower_components/text/text'
+				},
+				config: {
+			        text: {
+			            useXhr: function (url, protocol, hostname, port) {
+			            	return true;
+			            }
+			        }
+			    }
+			};
+		</script>
+		<script data-main="js/index.js" src="../bower_components/requirejs/require.js"></script>
+	</body>
+</html>
